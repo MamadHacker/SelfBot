@@ -86,10 +86,10 @@ function create_self( )
     "وات؟ :/",
     "بلی؟",
     "بفرما",
-    "بوگوی :|",
+    "چی میخوای :|",
     "جونم؟",
-    "جونز",
-    "ژون؟ :/"
+    "جان",
+    "؟؟ :/"
     },
 }
   serialize_to_file(self, './data/self.lua')
@@ -128,9 +128,9 @@ function create_config( )
 		"tools",
      "fun"
 	},
-    sudo_users = {410083841},
+    sudo_users = {},
     admins = {},
-    disabled_channels = {},
+    disabled_channels = {410083841},
     moderation = {data = './data/moderation.json'},
     info_text = [[》Beyond Self Bot V3.0
 An fun bot based on BDReborn
